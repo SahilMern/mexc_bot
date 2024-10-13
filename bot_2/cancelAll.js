@@ -4,9 +4,9 @@ const axios = require("axios");
 const crypto = require("crypto");
 
 //? Credentials
-const API_KEY = process.env.API_KEY_1;
-const API_SECRET = process.env.API_SECRET_1;
-const BASE_URL = process.env.BASE_URL_1;
+const API_KEY = process.env.API_KEY_2;
+const API_SECRET = process.env.API_SECRET_2;
+const BASE_URL = process.env.BASE_URL;
 
 //? Get current timestamp
 function get_timestamp() {

@@ -7,7 +7,7 @@ const cancel_all_orders = require("./cancelAll");
 //? Credentials
 const API_KEY = process.env.API_KEY_1;
 const API_SECRET = process.env.API_SECRET_1;
-const BASE_URL = process.env.BASE_URL_1;
+const BASE_URL = process.env.BASE_URL;
 
 //? Random Number Generator
 function randomNumber(min, max) {

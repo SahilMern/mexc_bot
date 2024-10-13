@@ -2,13 +2,13 @@ console.log("JAI SHREE RAM JI / JAI BAJARANG BALI JI ");
 require("dotenv").config({path:"../.env"});
 const axios = require("axios");
 const crypto = require("crypto");
-const cancel_Sell_order = require("./cancelSingleOrder");
 const cancel_all_orders = require("./cancelAll");
+const cancel_Sell_order = require("./cancelSingleOrder");
 
 //? Credentials
 const API_KEY = process.env.API_KEY_1;
 const API_SECRET = process.env.API_SECRET_1;
-const BASE_URL = process.env.BASE_URL_1;
+const BASE_URL = process.env.BASE_URL;
 
 //? Random Number Generator
 function randomNumber(min, max) {
