@@ -1,5 +1,5 @@
 console.log("JAI SHREE RAM JI / JAI BAJARANG BALI JI ");
-require("dotenv").config({path:"../.env"});
+require("dotenv").config({ path: "../.env" });
 const axios = require("axios");
 const crypto = require("crypto");
 const cancel_all_orders = require("./cancelAll");
